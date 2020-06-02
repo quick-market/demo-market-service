@@ -1,0 +1,12 @@
+{
+  "name": "qocode-demo-market-service",
+  "description": "QO-Code DEMO market service",
+  "repository": "https://github.com/qocode/demo-market-service",
+  "logo": "https://github.com/qocode/qocode.github.io/raw/master/assets/png/favicon128.png",
+  "keywords": [
+    "qocode",
+    "demo",
+    "market"
+  ],
+  "image": "heroku/nodejs"
+}
