@@ -6,7 +6,7 @@ const PORT = process.env.PORT || 3000
 
 fastify
   .get('/', (req, reply) => reply.send({ test: 'ok' }))
-  .listen(PORT, (err, address) => {
+  .listen(PORT, '0.0.0.0', (err, address) => {
     if (err) {
       fastify.log.error(err)
       process.exit(1)
